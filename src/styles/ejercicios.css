@@ -1,0 +1,38 @@
+.container-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+.btn-group-sex {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    margin-left: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.section-menu {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.section-button {
+    position: relative;
+    width: 14%;
+    margin: 2px;
+    background: #222529;
+    border: solid 2px rgba(206, 105, 10, 0.952);
+    color: rgba(255, 131, 16, 0.952);
+    font-weight: 700;
+    height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.section-button:hover {
+    background: rgba(255, 131, 16, 0.952);
+    color: #222529;
+}

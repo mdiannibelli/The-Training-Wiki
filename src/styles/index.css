@@ -1,0 +1,58 @@
+#primary {
+    box-sizing: border-box;
+    max-width: 1080px;
+    margin: 2.625em auto 0;
+    padding: 0 1.75em;
+    margin-bottom: 80px;
+}
+
+.header-article {
+    margin-bottom: 20px;
+}
+
+.h1-header {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(248, 125, 11, 0.952);
+    font-weight: 800;
+    margin: 0;
+    font-size: 52px;
+}
+
+.info-container {
+    display: grid;
+    gap: 28px;
+}
+
+p {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.h1-article {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(248, 125, 11, 0.952);
+    font-weight: 800;
+    margin: 0;
+    font-size: 32px;
+}
+
+.list-guide {
+    margin-left: 26px;
+    padding: 12px;
+}
+
+.list-guide li {
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    font-size: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}

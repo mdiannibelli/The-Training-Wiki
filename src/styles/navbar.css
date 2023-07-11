@@ -1,0 +1,92 @@
+.header-container {
+    background-color: #222529;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.header a .logo {
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-nav {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    position: absoulute;
+}
+
+.header-nav.active {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.header-nav li {
+    margin-left: 30px;  
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.header-nav li a:hover {
+    color: rgba(248, 125, 11, 0.952);
+}
+
+.burguerbtn {
+    @media(min-width: 768px) {
+        display: none;
+        
+    }
+}
+/* MOBILE */
+@media (max-width: 767px) {
+    .header-container {
+        justify-content: flex-end;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header .logo {
+        position: relative;
+        bottom: 32px;
+    }
+}
+
+/* IPAD */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* header */
+    .header-container {
+    justify-content: flex-start;
+    }
+    .header {
+        gap: 0;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
