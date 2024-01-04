@@ -35,13 +35,7 @@ export default function () {
                   <li><NavLink className='links' to='/ejercicios'>Ejercicios</NavLink></li>
                   <p>Podrás aprender acerca de nuevos ejercicios con sus respectivas técnicas y explicaciones.</p>
 
-                  <li><NavLink className='links' to='/rutinas'>Rutinas</NavLink></li>
-                  <p>Ofrecemos algunas rutinas para aquellos que recién comienzan.</p>
-
                   <li><NavLink className='links' to='/preguntas-comunes'>Preguntas Comunes</NavLink></li>
-                  <p>Apartado donde respondemos preguntas más frecuentes.</p>
-
-                  <li><NavLink className='links' to='/glosario'>Glosario</NavLink></li>
                   <p>Apartado donde respondemos preguntas más frecuentes.</p>
 
                 </ul>

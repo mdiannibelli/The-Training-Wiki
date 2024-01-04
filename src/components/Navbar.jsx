@@ -22,7 +22,6 @@ export default function Navbar() {
         <li><NavLink className='nav-item' to='/ganancia-muscular'>GANANCIA MUSCULAR</NavLink></li>
         <li><NavLink className='nav-item' to='/calentamientos'>CALENTAMIENTOS</NavLink></li>
         <li><NavLink className='nav-item' to='/ejercicios'>EJERCICIOS</NavLink></li>
-        <li><NavLink className='nav-item' to='/rutinas'>RUTINAS</NavLink></li>
     </ul>
     </div>
   </div>

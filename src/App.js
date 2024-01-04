@@ -13,7 +13,6 @@ import GananciaMuscular from './components/GananciaMuscular';
 import { useEffect } from 'react';
 import Calentamientos from './components/Calentamientos';
 import Nosotros from './components/Nosotros';
-import PorqueDecidiCrearEsteSitioWeb from './components/PorqueDecidiCrearEsteSitioWeb';
 import Form from './components/Form';
 import Ejercicios from './components/Ejercicios';
 import Abdomen from './components/ejercicios/hombre/Abdomen';
@@ -50,7 +49,6 @@ function App() {
         <Route path='/ganancia-muscular' element={<GananciaMuscular/>}/>
         <Route path='/calentamientos' element={<Calentamientos/>}/>
         <Route path='/nosotros' element={<Nosotros/>}/>
-        <Route path='/porque-decidi-crear-este-sitio-web' element={<PorqueDecidiCrearEsteSitioWeb/>}/>
         <Route path='/formulario' element={<Form/>}/>
         <Route path='/ejercicios' element={<Ejercicios/>}/>
         <Route path='/ejercicios/hombre/pecho' element={<Pecho/>}/>

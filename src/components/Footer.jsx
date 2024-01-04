@@ -17,10 +17,9 @@ export default function () {
                         <li><NavLink className='links' to='/index'>Index</NavLink></li>
                         <li><NavLink className='links' to='/tips'>Tips</NavLink></li>
                         <li><NavLink className='links' to='/preguntas-comunes'>Preguntas Comunes</NavLink></li>
-                        <li><NavLink className='links' to='/rutinas'>Rutinas</NavLink></li>
+                        <li><NavLink className='links' to='/perder-grasa'>Perder Grasa</NavLink></li>
                     </ul>
                     <ul className='list-footer'>
-                        <li><NavLink className='links' to='/perder-grasa'>Perder Grasa</NavLink></li>
                         <li><NavLink className='links' to='/ganancia-muscular'>Ganancia Muscular</NavLink></li>
                         <li><NavLink className='links' to='/calentamientos'>Calentamientos</NavLink></li>
                         <li><NavLink className='links' to='/ejercicios'>Ejercicios</NavLink></li>
@@ -35,8 +34,6 @@ export default function () {
                     <div className='ul-footer' style={{gridTemplateColumns: '1fr'}}>
                     <ul className='list-footer'>
                         <li><NavLink className='links' to='/nosotros'>Nosotros</NavLink></li>
-                        <li><NavLink className='links' to='/porque-decidi-crear-este-sitio-web'>¿Por qué decidí crear este sitio web?</NavLink></li>
-                        <li><a href='#' style={{visibility: 'hidden'}}>Historia</a></li>
                     </ul>
                     </div>
                 </div>

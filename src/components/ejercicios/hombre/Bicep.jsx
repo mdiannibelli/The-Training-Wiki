@@ -17,7 +17,7 @@ export default function Bicep() {
   return (
     <>
     <div className='container-menu'>
-        <div className='btn-group-sex'>
+       {/*  <div className='btn-group-sex'>
             <div className='input-container'>
                 <input className="js-sex-option" type="radio" name="sexchooser" id="sexchoosermale" value="male" onClick={() =>handleSex("male")} defaultChecked/> 
                 <label htmlFor='sexchoosermale'>Hombre</label>
@@ -27,7 +27,7 @@ export default function Bicep() {
             <input className="js-sex-option" type="radio" name="sexchooser" id="sexchooserfemale" value="female" onClick={() =>handleSex("female")} /> 
                     <label htmlFor='sexchooserfemale'>Mujer</label>
             </div>
-        </div>
+        </div> */}
         <div className='main-nav'>
             <div className='section-menu'>
             <NavLink className='links' to='/ejercicios/hombre/pecho'><button className='section-button'>Pecho</button></NavLink>
