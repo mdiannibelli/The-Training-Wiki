@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import '../styles/ejercicios.css'
-import Pecho from './ejercicios/Pecho';
 import { NavLink } from 'react-router-dom';
 
 export default function Ejercicios() {
@@ -10,11 +9,11 @@ export default function Ejercicios() {
       }, []);
 
       /* selector */
-      const [selectedSex, setSelectedSex] = useState("male");
+      /* const [selectedSex, setSelectedSex] = useState("male");
 
       function handleSex(option) {
         setSelectedSex(option)
-      }
+      } */
   return (
     <>
     <div className='container-menu'>

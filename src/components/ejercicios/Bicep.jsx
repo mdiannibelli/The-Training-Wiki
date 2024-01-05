@@ -9,11 +9,11 @@ export default function Bicep() {
         window.scrollTo(0, 0); // Desplaza la ventana al principio cuando la ubicación cambie
       }, []);
        /* selector */
-       const [selectedSex, setSelectedSex] = useState("male");
+       /* const [selectedSex, setSelectedSex] = useState("male");
 
        function handleSex(option) {
          setSelectedSex(option)
-       }
+       } */
   return (
     <>
     <div className='container-menu'>
