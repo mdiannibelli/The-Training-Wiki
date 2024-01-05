@@ -15,20 +15,20 @@ import Calentamientos from './components/Calentamientos';
 import Nosotros from './components/Nosotros';
 import Form from './components/Form';
 import Ejercicios from './components/Ejercicios';
-import Abdomen from './components/ejercicios/hombre/Abdomen';
-import Antebrazo from './components/ejercicios/hombre/Antebrazo';
-import Bicep from './components/ejercicios/hombre/Bicep';
-import Cuádriceps from './components/ejercicios/hombre/Cuádriceps';
-import Dorsales from './components/ejercicios/hombre/Dorsales';
-import EspaldaBaja from './components/ejercicios/hombre/EspaldaBaja';
-import EspaldaMedia from './components/ejercicios/hombre/EspaldaMedia';
-import Gemelos from './components/ejercicios/hombre/Gemelos';
-import Glúteos from './components/ejercicios/hombre/Glúteos';
-import Hombro from './components/ejercicios/hombre/Hombro';
-import Isquiotibiales from './components/ejercicios/hombre/Isquiotibiales';
-import Pecho from './components/ejercicios/hombre/Pecho';
-import Trapecios from './components/ejercicios/hombre/Trapecios';
-import Tricep from './components/ejercicios/hombre/Tricep';
+import Abdomen from './components/ejercicios/Abdomen';
+import Antebrazo from './components/ejercicios/Antebrazo';
+import Bicep from './components/ejercicios/Bicep';
+import Cuádriceps from './components/ejercicios/Cuádriceps';
+import Dorsales from './components/ejercicios/Dorsales';
+import EspaldaBaja from './components/ejercicios/EspaldaBaja';
+import EspaldaMedia from './components/ejercicios/EspaldaMedia';
+import Gemelos from './components/ejercicios/Gemelos';
+import Glúteos from './components/ejercicios/Glúteos';
+import Hombro from './components/ejercicios/Hombro';
+import Isquiotibiales from './components/ejercicios/Isquiotibiales';
+import Pecho from './components/ejercicios/Pecho';
+import Trapecios from './components/ejercicios/Trapecios';
+import Tricep from './components/ejercicios/Tricep';
 
 function App() {
   useEffect(() => {
@@ -51,20 +51,20 @@ function App() {
         <Route path='/nosotros' element={<Nosotros/>}/>
         <Route path='/formulario' element={<Form/>}/>
         <Route path='/ejercicios' element={<Ejercicios/>}/>
-        <Route path='/ejercicios/hombre/pecho' element={<Pecho/>}/>
-        <Route path='/ejercicios/hombre/hombro' element={<Hombro/>}/>
-        <Route path='/ejercicios/hombre/bicep' element={<Bicep/>}/>
-        <Route path='/ejercicios/hombre/tricep' element={<Tricep/>}/>
-        <Route path='/ejercicios/hombre/antebrazo' element={<Antebrazo/>}/>
-        <Route path='/ejercicios/hombre/trapecios' element={<Trapecios/>}/>
-        <Route path='/ejercicios/hombre/espalda-media' element={<EspaldaMedia/>}/>
-        <Route path='/ejercicios/hombre/dorsales' element={<Dorsales/>}/>
-        <Route path='/ejercicios/hombre/espalda-baja' element={<EspaldaBaja/>}/>
-        <Route path='/ejercicios/hombre/abdomen' element={<Abdomen/>}/>
-        <Route path='/ejercicios/hombre/cuádriceps' element={<Cuádriceps/>}/>
-        <Route path='/ejercicios/hombre/isquiotibiales' element={<Isquiotibiales/>}/>
-        <Route path='/ejercicios/hombre/gemelos' element={<Gemelos/>}/>
-        <Route path='/ejercicios/hombre/glúteos' element={<Glúteos/>}/>
+        <Route path='/ejercicios/pecho' element={<Pecho/>}/>
+        <Route path='/ejercicios/hombro' element={<Hombro/>}/>
+        <Route path='/ejercicios/bicep' element={<Bicep/>}/>
+        <Route path='/ejercicios/tricep' element={<Tricep/>}/>
+        <Route path='/ejercicios/antebrazo' element={<Antebrazo/>}/>
+        <Route path='/ejercicios/trapecios' element={<Trapecios/>}/>
+        <Route path='/ejercicios/espalda-media' element={<EspaldaMedia/>}/>
+        <Route path='/ejercicios/dorsales' element={<Dorsales/>}/>
+        <Route path='/ejercicios/espalda-baja' element={<EspaldaBaja/>}/>
+        <Route path='/ejercicios/abdomen' element={<Abdomen/>}/>
+        <Route path='/ejercicios/cuádriceps' element={<Cuádriceps/>}/>
+        <Route path='/ejercicios/isquiotibiales' element={<Isquiotibiales/>}/>
+        <Route path='/ejercicios/gemelos' element={<Gemelos/>}/>
+        <Route path='/ejercicios/glúteos' element={<Glúteos/>}/>
       </Routes>
     {  <Footer/>}
     

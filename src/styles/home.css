@@ -199,7 +199,17 @@ label:hover {
 @media (min-width: 768px) and (max-width: 1024px) {
     /* home section */
     .h1title {
-        font-size: 120px;
+        font-size: 100px;
+    }
+
+    .infotext, .infotext2 {
+        max-width: 90%;
+    }
+
+    .infotext p {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     /* body section */
     .human-body {

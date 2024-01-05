@@ -250,11 +250,13 @@
 /* ipad */
 @media (min-width: 768px) and (max-width: 1024px) {
     .row-footer {
-        margin: auto;
+        gap: 0px;
+        justify-items: center;
     }
     .logo-container {
         grid-column: 2 / 3;
         grid-row: 1;
+        margin-bottom: 30px;
     }
     .footer-info {
         grid-column: 1 / 4;

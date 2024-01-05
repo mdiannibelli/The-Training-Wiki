@@ -89,4 +89,12 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .header-nav li {
+        margin-left: 16px;
+    }
+
+    .header-nav li a {
+        font-size: 16px;
+    }
 }

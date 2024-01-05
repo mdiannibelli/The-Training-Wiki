@@ -36,3 +36,56 @@
     background: rgba(255, 131, 16, 0.952);
     color: #222529;
 }
+
+@media (max-width: 767px) {
+    .container-menu {
+        justify-content: flex-start;
+    }
+    .main-nav {
+        margin-left: 10px;
+    }
+
+    .section-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .section-button {
+        width: 100%;
+    }
+
+    .links {
+        margin: 5px;
+    }
+
+    .ejercicio {
+        max-width: 100%;
+    }
+
+    .ejercicio h2 {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .ejercicio h3 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .contenedor-ejercicios .image-exercise {
+        grid-template-columns: 1fr;
+        width: 30%;
+    }
+
+    .contenedor-ejercicios .instrucciones-ejercicio {
+        width: 300px;
+    }
+
+    .contenedor-ejercicios .instrucciones-ejercicio li {
+        margin: 2em 0 0.5rem 2em;
+        font-size: 12px;
+        padding: 10px 0px 8px 40px;
+        border-radius: 30px;
+    }
+}

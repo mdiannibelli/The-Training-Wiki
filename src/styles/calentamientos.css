@@ -52,6 +52,7 @@ p {
 /* MOBILE */
 @media (max-width: 767px) {
     .h1-header {
-        font-size: 52px;
+        font-size: 38px;
+        margin-bottom: 18px;
     }
 }

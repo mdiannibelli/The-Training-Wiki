@@ -69,3 +69,11 @@ ul p {
     color: #fff;
     font-weight: 500;
 }
+
+/* mobile */
+@media (max-width: 767px){
+
+    .info-container h1{
+        font-size: 26px;
+    }
+}
