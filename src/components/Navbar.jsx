@@ -25,9 +25,9 @@ export default function Navbar() {
     </ul>
     </div>
   </div>
-  <div className='burguerbtn'>
+ { <div className='burguerbtn'>
     <Burguerbutton clicked={clicked} handleClick={handleClick}/>
-  </div>
+  </div>}
 </>
   )
 }

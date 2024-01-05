@@ -166,19 +166,27 @@ label:hover {
         margin: auto;
         padding: 60px 0 60px;
     }
-    .h3subtitle, .h1title {
-        font-size: 60px;
+    .h3subtitle{
+        font-size: 40px;
+    }
+    .h1title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .infotext, .infotext2 {
+        padding: 10px;
     }
 
     /* body section */
     .human-body {
         margin: 0;
         max-height: 600px;
-        max-width: 384px;
+        max-width: 100%;
     }
     
     .body-map__body svg {
-        width: 100%;
+        width: 150px;
         height: auto;
     }
     

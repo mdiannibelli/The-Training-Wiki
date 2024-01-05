@@ -66,7 +66,7 @@ function App() {
         <Route path='/ejercicios/hombre/gemelos' element={<Gemelos/>}/>
         <Route path='/ejercicios/hombre/glúteos' element={<Glúteos/>}/>
       </Routes>
-      <Footer/>
+    {  <Footer/>}
     
     </BrowserRouter>
 

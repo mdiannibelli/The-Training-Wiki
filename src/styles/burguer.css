@@ -103,4 +103,9 @@ body {
     color: #333;
   }
 
-  
+
+@media (max-width: 767px) {
+  .menuppal {
+    left: -10px;
+  }
+}
