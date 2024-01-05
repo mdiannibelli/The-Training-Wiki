@@ -2,7 +2,7 @@ import React from 'react';
 import  '../styles/footer.css';
 import logo from '../assets/imgs/logo/logo extended.png';
 import { NavLink } from 'react-router-dom';
-export default function () {
+export default function Footer() {
   return (
     <div>
          <section className='section-footer'>
