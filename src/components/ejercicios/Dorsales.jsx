@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/musculos.css'
-import { useEffect, useState } from 'react';
+
 import ReactPlayer from 'react-player';
 import { NavLink } from 'react-router-dom';
 

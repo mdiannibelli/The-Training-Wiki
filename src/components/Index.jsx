@@ -3,7 +3,7 @@ import  '../styles/index.css';
 import { NavLink } from 'react-router-dom';
 import { useEffect } from 'react';
 
-export default function () {
+export default function Index() {
   useEffect(() => {
     window.scrollTo(0, 0); // Desplaza la ventana al principio cuando la ubicación cambie
   }, []);
